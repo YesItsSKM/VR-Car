@@ -1,0 +1,523 @@
+# ff.mtl
+
+newmtl OrtoA_1-1
+Ka 0.20 0.20 0.20
+Kd 0.80 0.80 0.80
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+
+newmtl 304201D
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\VT7_304201D.jpg
+
+newmtl B_Col_DBrown
+Ka 0.29 0.25 0.21
+Kd 0.29 0.25 0.21
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+
+newmtl B_Col_DGrey
+Ka 0.25 0.27 0.30
+Kd 0.25 0.27 0.30
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+
+newmtl B_Col_LBrown
+Ka 0.55 0.48 0.40
+Kd 0.55 0.48 0.40
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+
+newmtl B_Col_LGrey
+Ka 0.58 0.61 0.65
+Kd 0.58 0.61 0.65
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+
+newmtl B_Col_White
+Ka 0.87 0.88 0.89
+Kd 0.87 0.88 0.89
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+
+newmtl B_Katto_Rusk
+Ka 0.64 0.58 0.55
+Kd 0.64 0.58 0.55
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+
+newmtl E_1SignPylväs
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\e_sign_pole.png
+
+newmtl E_Birch_VT7
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\betula_pendula_5m_vt7.png
+
+newmtl E_BushLeaf_M
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\bush01.png
+
+newmtl E_BushLeaf_S
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\bush01.png
+
+newmtl E_BushRuusu01
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\bush_rosa01.png
+
+newmtl E_Kivi
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.20 0.20 0.20
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\stone01.png
+
+newmtl E_LightMast01
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\vt7_light_mast.png
+
+newmtl E_LightRamp08
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\light_ramp08.png
+
+newmtl E_LightRoad08B
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\light_ramp08.png
+
+newmtl E_LightRoad14
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\light_road14.png
+
+newmtl E_LightRoad16
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\light_road16.png
+
+newmtl E_LightRoad17
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\light_road17.png
+
+newmtl E_Masto
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\light_mast01.png
+
+newmtl E_PuuKoivu01
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\tree_betula01.png
+
+newmtl E_PuuKuusi01
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\tree_picea01.png
+
+newmtl E_PuuMänty01
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\tree_pinus01.png
+
+newmtl E_Sign100
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\e_speed_limit_100.png
+
+newmtl E_SignArrow_R
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\e_arrow_r.png
+
+newmtl E_SignKers
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\e_road_split.png
+
+newmtl E_SignTriangle
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\e_avoid.png
+
+newmtl E_Suurjännite
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\electric_pole05.png
+
+newmtl E_TreeBirch_15m
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\tree_betula02.png
+
+newmtl E_TreeBirch_5m
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\tree_betula01.png
+
+newmtl E_TreePine_15m
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\abies_nordmanniana_15m.png
+
+newmtl E_TreePine_5m
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\abies_nordmanniana_5m.png
+
+newmtl E_TreeSpruc_15m
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\picea_pungens_15m.png
+
+newmtl E_TreeSpruc_5m
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\picea_pungens_5m.png
+
+newmtl F_Ajojohde
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\fence_road01.png
+
+newmtl F_Bridge
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\fence_bridge08.png
+
+newmtl F_Bridge02-End
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\fence_bridge05_ajojohde.png
+
+newmtl F_Bridge02_M7
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\fence_bridge05_m7.png
+
+newmtl F_Bridge02_VT7
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\fence_bridge05_vt7.png
+
+newmtl F_Koynnos
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\bush_anomala.tga
+
+newmtl F_Noise05
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\fence_noise05.png
+
+newmtl F_Noise_VT701
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\vt7_noise_01_brown.png
+
+newmtl F_Noise_VT701B
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\vt7_noise_01_blue.png
+
+newmtl F_Noise_VT703
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\vt7_noise_03.png
+
+newmtl F_Noise_VT704
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\vt7_noise_04.png
+
+newmtl Metsä_Koivu
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\forest_birch01.png
+
+newmtl Metsä_Kuusi
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\forest_spruce01.png
+
+newmtl Metsä_Mänty
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\forest_pine01.png
+
+newmtl S_Asphalt
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.21 0.21 0.21
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\Asphalt20.png
+
+newmtl S_Concrete
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.21 0.21 0.21
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\concrete02.png
+
+newmtl S_Curbstone
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\granit_gray01.png
+
+newmtl S_Grass
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.21 0.21 0.21
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\grass_smooth01.jpg
+
+newmtl S_Gravel
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.21 0.21 0.21
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\gravel_fine01.png
+
+newmtl S_Light_LED_B
+Ka 0.14 0.47 0.81
+Kd 0.14 0.41 0.81
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+
+newmtl S_Road_Marking
+Ka 0.89 0.89 0.89
+Kd 0.89 0.89 0.89
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+
+newmtl S_Terrain
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\terrain22.jpg
+
+newmtl S_Tiles
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.21 0.21 0.21
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\tile_gray18.jpg
+
+newmtl S_TilesKivi03
+Ka 1.00 1.00 1.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.000000
+Ns 0.000000
+illum 2
+map_Kd _textures\tile_rock03.png
