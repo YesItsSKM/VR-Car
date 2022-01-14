@@ -8,10 +8,15 @@ public class PlayerInput : MonoBehaviour
     public GameObject player;
     public Animator leftHandAnimator, rightHandAnimator;
 
+    public Rigidbody carRigidBody;
+    public Transform carForward;
+
     [SerializeField] float moveSpeed = 0.2f;
     [SerializeField] float rotateSpeed = 0.25f;
 
-    InputDevice leftController, rightController;
+    public InputDevice leftController, rightController;
+
+    Vector3 moveDirection;
 
     //int i = 0;
     void Start()
@@ -22,6 +27,8 @@ public class PlayerInput : MonoBehaviour
 
         leftController = devices[0];
         rightController = devices[1];
+
+        carRigidBody.freezeRotation = true;
     }
 
     // Update is called once per frame
@@ -37,7 +44,11 @@ public class PlayerInput : MonoBehaviour
 
             //car.transform.position += car.transform.forward;
 
-            player.transform.Translate(0f, 0f, -(carMoveValue.x + carMoveValue.y) * moveSpeed);
+            //player.transform.Translate(0f, 0f, -(carMoveValue.x + carMoveValue.y) * moveSpeed);
+
+            moveDirection = carForward.transform.forward * carMoveValue.y;
+
+            
         }
 
         if (rightController.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 carRotateValue) && carRotateValue != Vector2.zero)
@@ -46,8 +57,12 @@ public class PlayerInput : MonoBehaviour
 
             player.transform.Rotate(0f, carRotateValue.x * rotateSpeed, 0f);
 
-            Debug.Log(carRotateValue);
+            //Debug.Log(carRotateValue);
         }
+    }
+    private void FixedUpdate()
+    {
+        carRigidBody.AddForce(moveDirection.normalized * moveSpeed, ForceMode.Acceleration);
     }
 
     private void AnimateHands()
