@@ -5,6 +5,8 @@ using UnityEngine.XR;
 
 public class SteeringControls : MonoBehaviour
 {
+    public Transform steeringLookAt;
+
     // Right hand
     public GameObject rightHand;
         private Transform rightHandOriginalParent;
@@ -38,6 +40,8 @@ public class SteeringControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //transform.LookAt(steeringLookAt);
+
         ReleaseHandsFromWheel();
         ConvertWheelRotation();
         //TurnCar();
@@ -142,22 +146,24 @@ public class SteeringControls : MonoBehaviour
     {
         if (rightHandOnWheel && !leftHandOnWheel)
         {
-            Quaternion newRot = Quaternion.Euler(rightHandOriginalParent.transform.rotation.eulerAngles.x, rightHandOriginalParent.transform.rotation.eulerAngles.y, 103.58f);
+            //Quaternion newRot = Quaternion.Euler(rightHandOriginalParent.transform.rotation.eulerAngles.x, rightHandOriginalParent.transform.rotation.eulerAngles.y, 103.58f);
+            Quaternion newRot = Quaternion.Euler(rightHandOriginalParent.transform.localRotation.eulerAngles.z, 0f, 0f);
+            
             directionalObject.rotation = newRot;
             transform.parent = directionalObject;
         }
 
         if (!rightHandOnWheel && leftHandOnWheel)
         {
-            Quaternion newRot = Quaternion.Euler(leftHandOriginalParent.transform.rotation.eulerAngles.x, leftHandOriginalParent.transform.rotation.eulerAngles.y, 103.58f);
+            Quaternion newRot = Quaternion.Euler(leftHandOriginalParent.transform.rotation.eulerAngles.z, 0f, 0f);
             directionalObject.rotation = newRot;
             transform.parent = directionalObject;
         }
 
         if (rightHandOnWheel && leftHandOnWheel)
         {
-            Quaternion newRotLeft = Quaternion.Euler(leftHandOriginalParent.transform.rotation.eulerAngles.x, leftHandOriginalParent.transform.rotation.eulerAngles.y, 103.58f);
-            Quaternion newRotRight = Quaternion.Euler(rightHandOriginalParent.transform.rotation.eulerAngles.x, rightHandOriginalParent.transform.rotation.eulerAngles.y, 103.58f);
+            Quaternion newRotLeft = Quaternion.Euler(leftHandOriginalParent.transform.rotation.eulerAngles.z, 0f, 0f);
+            Quaternion newRotRight = Quaternion.Euler(rightHandOriginalParent.transform.rotation.eulerAngles.z, 0f, 0f);
             Quaternion finalRot = Quaternion.Slerp(newRotLeft, newRotRight, 0.5f);
 
             directionalObject.rotation = finalRot;
